@@ -3,6 +3,17 @@
     margin: 0%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+header{
+    border-bottom: 1px solid black;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(4, 204, 4);
+    padding: 0;
+    
+}
+body{
+    background-color: greenyellow;
+}
 section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -23,6 +34,6 @@ section div{
     border-radius: 30px;
 }
 section div:hover{
-    background-color: grey;
+    background-color:  rgb(4, 204, 4);
     color: rgb(26, 26, 26)
 }
